@@ -21,7 +21,7 @@ struct ContentView: View {
                         Text("Sort By \(sortOrder.rawValue)").tag(sortOrder)
                     }
                 }
-
+                
                 .pickerStyle(SegmentedPickerStyle())
                 .padding()
 

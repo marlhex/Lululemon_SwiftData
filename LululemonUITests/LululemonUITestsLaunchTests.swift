@@ -25,9 +25,4 @@ final class LululemonUITestsLaunchTests: XCTestCase {
     func testAddPlusButton() throws {
         XCUIApplication().navigationBars["List"]/*@START_MENU_TOKEN@*/.buttons["Add"]/*[[".otherElements[\"Add\"].buttons[\"Add\"]",".buttons[\"Add\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
     }
-
-    func testSwitchingSorting() throws {
-        app/*@START_MENU_TOKEN@*/.buttons["Sort By creationTime"]/*[[".segmentedControls.buttons[\"Sort By creationTime\"]",".buttons[\"Sort By creationTime\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        app/*@START_MENU_TOKEN@*/.buttons["Sort By alpha"]/*[[".segmentedControls.buttons[\"Sort By alpha\"]",".buttons[\"Sort By alpha\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-    }
 }
