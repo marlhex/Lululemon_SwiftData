@@ -19,6 +19,7 @@
 		3A206DCC2BCD149E00ECBABB /* SortOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A206DCB2BCD149E00ECBABB /* SortOption.swift */; };
 		3A206DCF2BCD14B600ECBABB /* Garment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A206DCE2BCD14B600ECBABB /* Garment.swift */; };
 		3A5F9E742C166922003DC23B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3A5F9E732C166922003DC23B /* README.md */; };
+		3A5F9E762C16734E003DC23B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3A5F9E752C16734E003DC23B /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		3A206DCB2BCD149E00ECBABB /* SortOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOption.swift; sourceTree = "<group>"; };
 		3A206DCE2BCD14B600ECBABB /* Garment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garment.swift; sourceTree = "<group>"; };
 		3A5F9E732C166922003DC23B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		3A5F9E752C16734E003DC23B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				3A206DC62BCD141900ECBABB /* Model */,
 				3A206D9F2BCD13E700ECBABB /* Assets.xcassets */,
 				3A206DA12BCD13E700ECBABB /* Preview Content */,
+				3A5F9E752C16734E003DC23B /* Localizable.xcstrings */,
 			);
 			path = Lululemon;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"fr-CA",
 			);
 			mainGroup = 3A206D8F2BCD13E600ECBABB;
 			productRefGroup = 3A206D992BCD13E600ECBABB /* Products */;
@@ -272,6 +276,7 @@
 			files = (
 				3A5F9E742C166922003DC23B /* README.md in Resources */,
 				3A206DA32BCD13E700ECBABB /* Preview Assets.xcassets in Resources */,
+				3A5F9E762C16734E003DC23B /* Localizable.xcstrings in Resources */,
 				3A206DA02BCD13E700ECBABB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -26,6 +26,7 @@ struct ContentView: View {
                 .padding()
 
                 ListSortView(sortOrder: sortOrder)
+                Spacer()
             }
 
             .navigationTitle("List")
