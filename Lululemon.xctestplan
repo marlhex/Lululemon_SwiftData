@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "808A7B72-43DD-4A85-BA14-D892A6A0791F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Lululemon.xcodeproj",
+      "identifier" : "3A206D972BCD13E600ECBABB",
+      "name" : "Lululemon"
+    },
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Lululemon.xcodeproj",
+        "identifier" : "3A206DA72BCD13E700ECBABB",
+        "name" : "LululemonTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Lululemon.xcodeproj",
+        "identifier" : "3A206DB12BCD13E700ECBABB",
+        "name" : "LululemonUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

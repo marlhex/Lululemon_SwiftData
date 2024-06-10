@@ -56,6 +56,7 @@
 		3A206DCE2BCD14B600ECBABB /* Garment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garment.swift; sourceTree = "<group>"; };
 		3A5F9E732C166922003DC23B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		3A5F9E752C16734E003DC23B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		3A5F9E792C16909F003DC23B /* Lululemon.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Lululemon.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 		3A206D8F2BCD13E600ECBABB = {
 			isa = PBXGroup;
 			children = (
+				3A5F9E792C16909F003DC23B /* Lululemon.xctestplan */,
 				3A206D9A2BCD13E600ECBABB /* Lululemon */,
 				3A206DAB2BCD13E700ECBABB /* LululemonTests */,
 				3A206DB52BCD13E700ECBABB /* LululemonUITests */,
