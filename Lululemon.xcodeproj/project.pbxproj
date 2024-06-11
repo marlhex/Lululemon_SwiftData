@@ -148,8 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				3A206D9D2BCD13E600ECBABB /* ContentView.swift */,
-				3A206DC72BCD142D00ECBABB /* AddGarmentView.swift */,
 				3A206DC92BCD143200ECBABB /* ListSortView.swift */,
+				3A206DC72BCD142D00ECBABB /* AddGarmentView.swift */,
 				3A206DCD2BCD14A000ECBABB /* Utils */,
 			);
 			path = View;

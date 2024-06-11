@@ -93,14 +93,14 @@ struct AddGarmentView: View {
             .navigationTitle("Add garments")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
+                ToolbarItem(placement: .topBarLeading) {
                     Button("Cancel") {
                         isPresented = false
                     }
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
+                ToolbarItem(placement: .topBarTrailing) {
                     Button("Save") {
-                        let newGarment = Garment(name: garmentName, creationTime: Date())
+                        let newGarment = Garment(name: garmentName)
                         modelContext.insert(newGarment)
                         isPresented = false
                     }

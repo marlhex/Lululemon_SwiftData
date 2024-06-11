@@ -31,11 +31,13 @@ struct ContentView: View {
 
             .navigationTitle("List")
             .navigationBarTitleDisplayMode(.inline)
-            .navigationBarItems(trailing: Button(action: {
-                isAddingGarment = true
-            }) {
-                Image(systemName: "plus.circle")
-            })
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Add", systemImage: "plus.circle") {
+                        isAddingGarment = true
+                    }
+                }
+            }
         }
 
         .fullScreenCover(isPresented: $isAddingGarment) {

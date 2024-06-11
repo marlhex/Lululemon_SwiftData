@@ -12,7 +12,7 @@ import SwiftData
 final class Garment: Identifiable {
     let id = UUID()
     var name: String
-    var creationTime: Date = Date()
+    var creationTime: Date
 
     init(name: String, creationTime: Date = Date()) {
         self.name = name
